@@ -1,4 +1,4 @@
-FILEPATH = 'todos.txt'
+FILEPATH = "D:\\Python\\app1\\todos.txt"
 
 
 def get_todos(filepath=FILEPATH):
@@ -12,6 +12,10 @@ def push_todos(todos_arg, filepath=FILEPATH):
     """Write a to_do items in the text file"""
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
+
+
+
+
 
 
 if __name__ == "__main__":
